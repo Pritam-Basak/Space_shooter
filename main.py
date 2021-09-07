@@ -9,7 +9,8 @@ run = True
 mixer.music.load("background.wav")
 mixer.music.play(-1)
 pygame.display.set_caption('Space shooter')
-icon= pygame.image.load('icon.png')
+# icon= pygame.image.load('icon.png') 
+# Change icon.png it's 64 pixel of size.
 background = pygame.image.load('background.png')
 playerimg=pygame.image.load('spaceship.png')
 playerx=338
